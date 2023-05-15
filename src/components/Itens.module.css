@@ -1,0 +1,26 @@
+.container{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10px;
+    margin-bottom: 6px;
+
+}
+.container button{
+    width: 40px;
+
+border: none;
+    height: 30px;
+    cursor: pointer;
+   
+    font-size: x-small;
+}
+.container textarea{ width:200px;
+    display: flex;
+resize: none;
+outline: none;
+border: none;
+height: 33px; }

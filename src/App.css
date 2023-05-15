@@ -1,0 +1,131 @@
+
+body {
+  margin: 0;
+  overflow-y: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.divmain{
+  display: flex;
+ 
+}
+.containeritem{  
+margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(10px, auto);
+}
+
+.divwork{
+  width: 100%;
+
+}
+.divwork span{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;gap:80%;
+  justify-content: center;
+}
+@media   (min-width: 100px) and (max-width:716px)  {
+
+  .divwork span button{
+    display: none;
+  }
+  .containeritem{  
+    margin-top: 20px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(10px, auto);
+       
+    }
+
+}
+@media   (min-width: 717px) and (max-width:1060px)  {
+  .divwork span{
+gap: 55%;
+  }
+  .containeritem{  
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(10px, auto);
+       
+    }
+}
+
+
+  @media   (min-width: 852px) and (max-width:1000px)  {
+    .divwork span{
+  gap: 64%;
+    }
+ 
+
+}
+
+
+.divwork span button{
+  margin-right: 7px;
+background:none ;
+
+
+border: none;
+
+}
+
+h1{
+  color: black;
+}
+.containerdois{
+  display: flex;
+  height: 55px;
+  align-items: center;
+  gap: 2px;
+ 
+  }
+  .divcreate{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+ 
+  }  
+  .divcreate button{
+height:40px;
+margin-top: 8px;
+  }
+
+  .containerdois button{
+ 
+  
+  display: flex;
+align-items: center;
+text-align: center;
+  color: black;
+ 
+  border: none;
+  }
+  .containerdois button:active{
+    background-color: white;
+    color: blue;
+    border: none;
+  }
+
+  .divhome{
+  
+   display: flex;
+   flex-direction: column;
+      
+  }
+
+.criartodo{
+  border: none;
+  outline: none;
+}
+
